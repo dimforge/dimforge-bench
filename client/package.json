@@ -1,0 +1,26 @@
+{
+  "name": "dimforge-bench-client",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist pkg && webpack",
+    "start": "rimraf dist pkg && webpack-dev-server --open -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.2",
+    "rimraf": "^3.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "lodash": "^4.17.20",
+    "seed-random": "^2.2.0"
+  }
+}

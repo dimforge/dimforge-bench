@@ -1,0 +1,2 @@
+[workspace]
+members = [ "bencher", "common", "server" ]
